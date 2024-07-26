@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cedarville+Cursive&family=Kotta+One&display=swap");
@@ -42,11 +43,14 @@ code {
   .heading-text {
     font-size: 38px;
   }
+
   .text-icon-bottom {
     width: 155px;
     /* margin: 5px; */
   }
 }
+
+
 
 .rotate-180 {
   transform: rotate(180deg) scale(-1);

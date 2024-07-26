@@ -27,28 +27,62 @@
   text-align: center;
   font-family: var(--our-address-font-family);
   font-weight: 400;
+  width: 300px;
+  /* height: 200px; */
+  /* padding: 20px; */
 }
 
 .phone-address-upper-side-paregraph {}
 
-.customer-care {
-  margin-top: 20px;
+
+
+.our-address-contact-us {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 80px;
+  margin: 50px 0;
 }
 
+
 @media (min-width: 2000px) {
-  .main-address-upper-side-paregraph {
+  /* .main-address-upper-side-paregraph {
     font-size: 30px;
-  }
+  } */
 
-  .main-address-upper-side>h3 {
+  /* .main-address-upper-side>h3 {
     font-size: 40px;
-  }
+  } */
 
-  .main-address-bottom-side>h2 {
+  /* .main-address-bottom-side>h2 {
     font-size: 40px;
-  }
+  } */
 
-  .main-address-upper-side {
+  /* .main-address-upper-side {
     width: 100%;
+  } */
+}
+
+@media(max-width:1000px) {
+  .our-address-contact-us {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 35px;
+    margin: 50px 0;
   }
+
+}
+
+@media(max-width:800px) {
+  .our-address-contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 50px 0;
+  }
+
 }

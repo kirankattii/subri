@@ -6,8 +6,8 @@ function OurAddress() {
 		<>
 			<div className="our-address-contact-us">
 				{/* main address */}
-				<div className="main-address-upper-side d-flex justify-content-center align-items-center flex-column">
-					<h3>Our Address:</h3>
+				<div className="main-address-bottom-side">
+					<h2>Our Address:</h2>
 					<h5 className="main-address-upper-side-paregraph">
 						SABURI TEA ESTATE PVT.LTD. W 18, Okhla Industrial Area, Phase - II
 						New Delhi, 110020 (BHARAT)

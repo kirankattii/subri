@@ -6,15 +6,17 @@
   height: auto;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 50px;
+  padding: 50px 30px;
   /* background-attachment: fixed; */
 
 }
+
 .footer-content-div {
   display: flex;
   justify-content: space-around;
   color: white;
   padding: 20px 10px;
+  /* gap: 50px; */
 }
 
 .icons-social-media-main-div {
@@ -22,9 +24,11 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 .footer-icon-logo {
   width: 200px;
 }
+
 .footer-icon-social-media {
   width: 200px;
 }
@@ -34,30 +38,125 @@
   justify-content: space-around;
   gap: 20px;
 }
+
 li {
   list-style: none;
 }
-.designed-details{
+
+.designed-details {
   display: flex;
   justify-content: space-evenly;
   color: white;
   font-family: monospace;
+  margin-top: 50px;
+  margin-bottom: -30px;
 
 }
-.company-details-links-main-div div ul li,h5 {
+
+.pitamaas-com a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #fff;
+}
+
+.company-details-links-main-div div ul li, h5 {
   list-style: disc;
   font-family: monospace;
+}
+
+.footer-details {
+  display: flex;
+  /* width: 100%; */
+  gap: 150px;
+
+}
+
+.footer-details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.footer-details ul li a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-contact div {
+  display: grid;
+  grid-template-columns: 1.5fr 5.5fr;
+}
+
+.footer-contact div p {
+  font-size: 17px;
 }
 
 @media (min-width: 427px) and (max-width: 769px) {
   .company-details-links-main-div {
     gap: 5px;
   }
+
   .footer-icon-logo {
     width: 150px;
   }
+
   .footer-icon-social-media {
     width: 150px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .footer-details {
+    display: flex;
+    /* width: 100%; */
+    gap: 50px;
+
+  }
+
+  .footer-contact div p br {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-details {
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+    justify-content: start;
+  }
+
+  .footer-content-div {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .footer-contact {
+    padding: 30px;
+
+  }
+
+  .footer-contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .designed-details {
+    margin-top: 0px;
   }
 }
 
@@ -65,46 +164,57 @@ li {
   .footer-content-div {
     display: contents;
   }
+
   .icons-social-media-main-div {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-top: 20px;
   }
+
   .company-details-links-main-div {
     display: contents;
   }
+
   .company-details-links-main-div div {
     padding: 10px;
   }
+
   .company-details-links-main-div div ul li {
     list-style: disc;
   }
+
   .footer-icon-logo {
     width: 120px;
   }
+
   .footer-icon-social-media {
     width: 120px;
   }
+
   .main-footer-div {
     padding: 0px;
   }
-  .designed-details{
-    display:flex;
+
+  .designed-details {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
   }
-  .designed-details div{
+
+  .designed-details div {
     padding: 6px;
   }
 }
+
 @media (min-width: 2000px) {
-  .main-footer-div{
+  .main-footer-div {
     font-size: 30px;
   }
-  .footer-icon-logo ,.footer-icon-social-media{
+
+  .footer-icon-logo, .footer-icon-social-media {
     width: 300px;
   }
 }
