@@ -1,0 +1,110 @@
+.main-footer-div {
+  background-image: url("../images/footer\ image.png");
+  background-size: cover;
+  width: 100%;
+  /* height: 300px; */
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+  /* background-attachment: fixed; */
+
+}
+.footer-content-div {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 20px 10px;
+}
+
+.icons-social-media-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-icon-logo {
+  width: 200px;
+}
+.footer-icon-social-media {
+  width: 200px;
+}
+
+.company-details-links-main-div {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+.designed-details{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: monospace;
+
+}
+.company-details-links-main-div div ul li,h5 {
+  list-style: disc;
+  font-family: monospace;
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+  .company-details-links-main-div {
+    gap: 5px;
+  }
+  .footer-icon-logo {
+    width: 150px;
+  }
+  .footer-icon-social-media {
+    width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-content-div {
+    display: contents;
+  }
+  .icons-social-media-main-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .company-details-links-main-div {
+    display: contents;
+  }
+  .company-details-links-main-div div {
+    padding: 10px;
+  }
+  .company-details-links-main-div div ul li {
+    list-style: disc;
+  }
+  .footer-icon-logo {
+    width: 120px;
+  }
+  .footer-icon-social-media {
+    width: 120px;
+  }
+  .main-footer-div {
+    padding: 0px;
+  }
+  .designed-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .designed-details div{
+    padding: 6px;
+  }
+}
+@media (min-width: 2000px) {
+  .main-footer-div{
+    font-size: 30px;
+  }
+  .footer-icon-logo ,.footer-icon-social-media{
+    width: 300px;
+  }
+}

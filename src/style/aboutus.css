@@ -1,0 +1,84 @@
+.main-about-page {
+  background: var(--gay-main-bg-color);
+}
+.main-text-content-div-about {
+  padding: 30px;
+}
+.second-text-content-div-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.about-use-paregraph {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
+  font-family: serif;
+
+}
+
+.about-us-images {
+  background: var(--gay-main-bg-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/Leaves.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.red-shape-about-us {
+  width: 300px;
+}
+.girl-image {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-red-angel-image {
+  position: relative;
+}
+.about-us-girl-image-div {
+  position: absolute;
+  bottom: -3px;
+}
+
+.our-collection-about-page {
+  margin-top: 10px;
+}
+
+@media (min-width:1020px) {
+  .about-use-paregraph{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .about-us-images {
+    height: 100vh;
+  }
+  .red-shape-about-us {
+    width: 450px;
+  }
+  .girl-image {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+/* for very large screen */
+@media (min-width: 2000px) {
+  .about-use-paregraph{
+    font-size: 30px;
+    padding: 10px;
+  }
+  .red-shape-about-us {
+    width: 650px;
+  }
+  .girl-image {
+    width: 100%;
+    height: auto;
+  }
+  
+}

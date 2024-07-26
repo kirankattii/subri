@@ -1,0 +1,113 @@
+
+.main_about_saburi_bg_image{
+  background-image: url("../../images/About/about-main-background.png");
+}
+.main_About_saburi_section {
+  text-align: center;
+  padding: 0px 50px;
+}
+.About_saburi_section_message {
+  text-align: center;
+  background: #ebebeb;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: var(--our-product-kotta-one-font-family);
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+  margin-top: 10px;
+}
+.main_about_heading {
+  font-size: 35px;
+  font-family: var(--our-product-font-family);
+}
+
+/* card */
+.about_saburi_card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.about_saburi_card_first {
+  background: #8f9475;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.about_saburi_card_second {
+  background: #ebebeb;
+}
+.about_saburi_first_card_message {
+  padding: 2px;
+  margin: 7px 0px;
+  border-top: 2px solid white;
+  width: 100%;
+}
+.about_saburi_second_card_message {
+  padding: 2px;
+  margin: 4px 0px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  width: 100%;
+}
+.about_saburi_card div:first-child {
+    font-weight: bold;
+    width: 100%;
+    font-family: var(--Lato-font-family);
+}
+.about_saburi_card div:nth-child(2) {
+    width: 100%;
+    font-family: var(--Lato-font-family)
+}
+
+@media (min-width: 760px) {
+
+.About_saburi_section_message {
+  padding: 30px;
+  /* background: #000; */
+}
+.About_saburi_section_message_parent{
+  padding: 10px 20px;
+}
+.About_saburi_section_message{
+  word-spacing: 5px;
+  /* letter-spacing: 1px; */
+  font-weight: 100;
+  font-size: 20px;
+}
+
+/* card */
+.main_tales_card_div{
+  padding: 20px;
+}
+.about_saburi_card {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 2px;
+  border-radius: 15px;
+}
+.main_about_heading{
+  font-size: 60px;
+}
+
+}
+
+@media (min-width: 2000px) {
+  .About_saburi_section_message{
+    font-size: 30px;
+  }
+  .about_saburi_card {
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+  }
+  .main_tales_card_div{
+    padding: 40px;
+    font-size: 24px;
+  }
+}
